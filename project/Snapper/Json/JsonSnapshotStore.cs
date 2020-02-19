@@ -12,7 +12,7 @@ namespace Snapper.Json
             if (!File.Exists(snapshotId.FilePath))
                 return null;
 
-            var fullSnapshot = JObject.Parse(File.ReadAllText(snapshotId.FilePath));
+            var fullSnapshot = JObjectHelper.ParseFromString(File.ReadAllText(snapshotId.FilePath));
 
             if (snapshotId.PrimaryId == null && snapshotId.SecondaryId == null)
                 return fullSnapshot;
@@ -36,7 +36,7 @@ namespace Snapper.Json
         {
             Directory.CreateDirectory(Path.GetDirectoryName(snapshotId.FilePath));
 
-            var newSnapshot = JObject.FromObject(value);
+            var newSnapshot = JObjectHelper.FromObject(value);
 
             JToken newSnapshotToWrite;
 

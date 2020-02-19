@@ -6,6 +6,26 @@ nav_order: 99
 # Changelog
 All notable changes to the Snapper project.
 
+## [2.2.3] - 2020-02-15
+### Bug Fix
+- [Issue #53](https://github.com/theramis/Snapper/issues/53) [PR #55](https://github.com/theramis/Snapper/pull/55) Use JObjectHelper when storing snapshots. Thanks to [@ViceIce](https://github.com/ViceIce) for surfacing the issue.
+
+## [2.2.2] - 2020-02-01
+### Bug Fix
+- [Issue #50](https://github.com/theramis/Snapper/issues/50) [PR #51](https://github.com/theramis/Snapper/pull/51) Fixed parsing of metadata properties so that they are treated as string by NewtonSoft. Thanks to [@ViceIce](https://github.com/ViceIce) for surfacing the issue.
+- Detection of an CI environment now checks for environment variables at the `Machine`, `Process` and `User` level. Previously it only checked at the `Process` level.
+
+## [2.2.1] - 2020-01-14
+### Bug Fix
+- [Issue #44](https://github.com/theramis/Snapper/issues/44) [PR #45](https://github.com/theramis/Snapper/pull/45) Fixed parsing of datetime strings so that they are treated as string by NewtonSoft. Thanks to [@plitwinski](https://github.com/plitwinski) for surfacing the issue.
+
+## [2.2.0] - 2019-11-01
+### Added
+- [PR #31](https://github.com/theramis/Snapper/pull/31) `Snapper` now supports the MSTest framework. Thanks to [@tskimmett](https://github.com/tskimmett) for the contribution.
+
+### Bug Fix
+- [PR #29](https://github.com/theramis/Snapper/pull/29) Fixed a broken link to the FAQS page. Thanks to [@tomasbruckner](https://github.com/tomasbruckner) for the fix.
+
 ## [2.1.0] - 2019-10-12
 ### Added
 - Added the ability detect test methods when a test framework attribute is one of the parents of the attribute applied.
@@ -108,6 +128,10 @@ The first stable release!
 - **Snapper.Json**: Extends Snapper.Core to provide storing snapshots in Json format
 - **Snapper.Json.Xunit**: Extends Snapper.Json and integrates with the XUnit testing framework.
 
+[2.2.3]: https://github.com/theramis/Snapper/compare/2.2.2...2.2.3
+[2.2.2]: https://github.com/theramis/Snapper/compare/2.2.1...2.2.2
+[2.2.1]: https://github.com/theramis/Snapper/compare/2.2.0...2.2.1
+[2.2.0]: https://github.com/theramis/Snapper/compare/2.1.0...2.2.0
 [2.1.0]: https://github.com/theramis/Snapper/compare/2.0.1...2.1.0
 [2.0.1]: https://github.com/theramis/Snapper/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/theramis/Snapper/compare/1.4.0...2.0.0

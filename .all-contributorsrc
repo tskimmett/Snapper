@@ -1,0 +1,72 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "fgather",
+      "name": "Florian Gather",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/614354?v=4",
+      "profile": "https://github.com/fgather",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "tomasbruckner",
+      "name": "Tomas Bruckner",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7334618?v=4",
+      "profile": "https://www.linkedin.com/in/tomasbruckner/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ViceIce",
+      "name": "Michael Kriese",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1798109?v=4",
+      "profile": "https://visualon.de",
+      "contributions": [
+        "code",
+        "ideas",
+        "bug"
+      ]
+    },
+    {
+      "login": "tskimmett",
+      "name": "Taylor Kimmett",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4603206?v=4",
+      "profile": "http://cognitoforms.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "PatrickLehnerXI",
+      "name": "Patrick Lehner",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19566691?v=4",
+      "profile": "https://github.com/PatrickLehnerXI",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "plitwinski",
+      "name": "Piotr Litwinski",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25408297?v=4",
+      "profile": "https://github.com/plitwinski",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Snapper",
+  "projectOwner": "theramis",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
